@@ -1,0 +1,16 @@
+name: DTech
+version: '${project.version}'
+main: dtech.dtech.DTech
+depend:
+  - "Slimefun"
+commands:
+  summon:
+    description: "生成实体 用法: summon 实体名 x y z 世界名"
+  takeitem:
+    description: "减少一个玩家手上的物品 用法: takeitem 玩家名"
+  addblock:
+    description: "添加自定义物品 用法: addblock 物品代号 id 物品样式 名字 lore 配方"
+  configblock:
+    description: "修改自定义物品配置"
+  settexture:
+    description: "修改自定义物品材质"

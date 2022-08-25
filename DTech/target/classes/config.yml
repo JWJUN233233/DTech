@@ -1,0 +1,4 @@
+language: "zh-cn" # 语言设置 默认中文
+repice-language-file: true # 是否每次都更新次语言文件
+category:
+  Material: "CHEST"

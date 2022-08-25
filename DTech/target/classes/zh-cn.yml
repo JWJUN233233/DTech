@@ -1,0 +1,27 @@
+#zh-cn
+# "[playerName]"表示玩家名
+# "[pluginName]"表示插件名
+# "[playerLocation]"表示玩家位置
+# "[playerWorld]"表示玩家的世界
+# "支持& {#xxxxxx}  {#xxxxxx>}{#xxxxxx<}表示颜色"
+# "支持papi变量 但是需要有玩家的语句才能使用 需要安装papi"
+PluginLoad:
+  Load: "&e插件已加载"
+  UnLoad: "&e插件已卸载"
+  CannotLoad: "&c插件无法加载"
+Save:
+  Saving: "&e正在保存信息"
+  Saved: "&a保存完成"
+category:
+  add:
+    displayname: "&e自定义物品"
+parameter:
+  error: "&c参数错误"
+  error2: "&c参数错误 请检查参数是否正确"
+command:
+  cannot-run-in-player: "&c抱歉 %player_displayname% ,此命令玩家不能执行"
+  takeitem:
+    error:
+      itemTypeError: "&c你确定玩家手上拿着东西?"
+block:
+  loadMessage: "&e成功加载了方块{0} id为{1}"
